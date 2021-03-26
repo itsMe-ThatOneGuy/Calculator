@@ -20,19 +20,21 @@ body {
     border-radius: 5px;
 }
 
-.screen {
+.screen-container {
     background-color: #1c1c1c;
     color: white;
-    max-height: 80px;
+    min-height: 80px;
     border: 1px solid black;
     border-radius: 5px;
     padding: 20px;
     text-align: right;
     font-size: 40px;
     margin-bottom: 20px;
+    word-wrap: break-word;
+    word-break: break-all;
 }
 
-.btn-grid {
+.grid {
     display: grid;
     grid-template-columns: repeat(4, 1fr);
     grid-gap: 10px;
