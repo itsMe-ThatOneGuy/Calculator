@@ -55,12 +55,36 @@ body {
     color: black;
 }
 
+.light-gray:hover {
+    background-color: #BBBBB9;
+}
+
+.light-gray:active {
+    background-color: #A2A2A1;
+}
+
 .orange {
     background-color: #FF9500;
     color: white;
 }
 
+.orange:hover {
+    background-color: #D98F26;
+}
+
+.orange:active {
+    background-color: #B3884D;
+}
+
 .digit {
     background-color: #505050;
     color: white;
+}
+
+.digit:hover {
+    background-color: #5E5E5E;
+}
+
+.digit:active {
+    background-color: #6D6D6D;
 }
