@@ -9,30 +9,30 @@
 </head>
 <body>
     <div class="calculator">
-        <div class="screen">0</div>
-        <div class="btn-grid">
-            <button class="btn light-gray span-2">Clear</button>
-            <button class="btn light-gray">Del</button>
-            <button class="btn orange">/</button>
+        <div class="screen-container" id="screen">0</div>
+        <div class="grid" id="btn-grid">
+            <button class="btn light-gray span-2" id="clear-btn">Clear</button>
+            <button class="btn light-gray" id="delete-btn">Del</button>
+            <button class="btn orange operator">÷</button>
 
-            <button class="btn digit">7</button>
-            <button class="btn digit">8</button>
-            <button class="btn digit">9</button>
-            <button class="btn orange">*</button>
+            <button class="btn digit" data-number>7</button>
+            <button class="btn digit" data-number>8</button>
+            <button class="btn digit" data-number>9</button>
+            <button class="btn orange operator">*</button>
 
-            <button class="btn digit">4</button>
-            <button class="btn digit">5</button>
-            <button class="btn digit">6</button>
-            <button class="btn orange">-</button>
+            <button class="btn digit" data-number>4</button>
+            <button class="btn digit" data-number>5</button>
+            <button class="btn digit" data-number>6</button>
+            <button class="btn orange operator">-</button>
 
-            <button class="btn digit">1</button>
-            <button class="btn digit">2</button>
-            <button class="btn digit">3</button>
-            <button class="btn orange">+</button>
+            <button class="btn digit" data-number>1</button>
+            <button class="btn digit" data-number>2</button>
+            <button class="btn digit" data-number>3</button>
+            <button class="btn orange operator">+</button>
 
-            <button class="btn digit span-2">0</button>
-            <button class="btn digit">.</button>
-            <button class="btn orange">=</button>
+            <button class="btn digit span-2" data-number>0</button>
+            <button class="btn digit" id="point-btn">.</button>
+            <button class="btn orange" id="equales">=</button>
         </div>
     </div>
     <script src="script.js"></script>
